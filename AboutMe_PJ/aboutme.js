@@ -33,8 +33,76 @@ $(document).ready(function () {
   });
 });
 
-$(window).on('load', function () {
-  $('#william').fadeIn(3000);
-  $('#quotation').fadeIn(3000);
-  $('#signature').fadeIn(300);
+
+$(function(){
+  $('.entrancetitle').click(function(){
+      $('.william img').animate({ opacity: 1 });;
+  });
 });
+
+$(function(){
+  $('.entrancetitle').click(function(){
+      $('.quotation img').animate({ opacity: 1 });;
+  });
+});
+
+$(function(){
+  $('.entrancetitle').click(function(){
+      $('.signature img').animate({ opacity: 1 });;
+  });
+});
+
+$(function(){
+  $('.entrancetitle').click(function(){
+      $('.signature img').animate({ opacity: 1 });;
+  });
+});
+
+$(function(){
+  $('.cardset-1').mouseover(function(){
+      $('.cardset-1').animate({ margin: 20 ,opacity: 1});;
+  });
+});
+
+$(function(){
+  $('.cardset-1').mouseleave(function(){
+    $('.cardset-1').animate({ margin: 5 ,opacity: 1 });;
+  });
+});
+
+$(function(){
+  $('.cardset-2').mouseover(function(){
+      $('.cardset-2').animate({ margin: 20 ,opacity: 1});;
+  });
+});
+
+$(function(){
+  $('.cardset-2').mouseleave(function(){
+    $('.cardset-2').animate({ margin: 5 ,opacity: 1});;
+  });
+});
+
+$(function(){
+  $('.cardset-3').mouseover(function(){
+      $('.cardset-3').animate({ margin: 20 ,opacity: 1  });;
+  });
+});
+
+$(function(){
+  $('.cardset-3').mouseleave(function(){
+    $('.cardset-3').animate({ margin: 5 ,opacity: 1 });;
+  });
+});
+
+$(function(){
+  $('.lifeblock').mouseover(function(){
+    $('.lifeblock').animate({ transform: 20 });;
+  });
+});
+
+$(function(){
+  $('.lifeblock').mouseleave(function(){
+    $('.lifeblock').animate({ transform: 0});;
+  });
+});
+

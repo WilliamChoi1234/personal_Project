@@ -77,18 +77,21 @@ html body{
     width: 28%;
     height: 28%;
     min-width: 300px;
+    opacity: 0.2 ;
 }
 
 .quotation img{
     width: 35%;
     height: 35%;
     min-width: 300px;
+    opacity: 0.2 ;
 }
 
 .signature img{
     width:7%;
     height:10%;
     min-width: 50px;
+    opacity: 0.2 ;
 }
 
 #introduction{
@@ -165,7 +168,7 @@ html body{
 }
 
 #travel{
-    background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(travelplane.png);
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(travelplane.png);
     width: 100%;
     height: auto;
     min-height: 90vh;
@@ -192,16 +195,19 @@ html body{
 .cardset-1{
     background-color: #0059b3;
     color: #fff;
+    opacity:0.7 ;
 }
 
 .cardset-2{
     background-color: #ffa64d;
     color: #fff;
+    opacity: 0.7;
 }
 
 .cardset-3{
     background-color: #00b300;
     color: #fff;
+    opacity:0.7 ;
 }
 
 #life{
@@ -354,8 +360,6 @@ html body{
     transition: .5s;
     z-index:2;
 }
-
-
 
 #contact p{
     padding:0;
